@@ -8,7 +8,7 @@ This project involves visualizing police arrest data from Montgomery County for 
 
 The dataset includes the following columns:
 
-- `ID`: Reference Number
+- `ID Reference Number`
 - `Subject's race`
 - `Subject's gender`
 - `Subject's age`
