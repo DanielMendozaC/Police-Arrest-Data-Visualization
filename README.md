@@ -1,30 +1,36 @@
-Police Arrest Data Visualization (2021-2023)
-Project Overview
-This project involves the analysis and visualization of arrest data from Montgomery County, covering the period from 2021 to 2023. The dataset includes demographic information about individuals arrested by police officers, such as their race, gender, age, and ethnicity. The visualizations are created using Python in Jupyter Notebook.
+# Police Arrest Data Visualization
 
-Dataset Description
+## Overview
+
+This project involves visualizing police arrest data from Montgomery County for the years 2021 to 2023. The dataset includes demographic information about individuals who have been arrested, such as race, gender, age, and ethnicity.
+
+## Dataset
+
 The dataset includes the following columns:
 
-ID Reference Number: Unique identifier for each arrest
-Subject's Race: Race of the individual arrested
-Subject's Gender: Gender of the individual arrested
-Subject's Age: Age of the individual arrested
-Ethnicity: Ethnicity of the individual arrested
-District of Occurrence: District where the arrest took place
-Adjacent to School: Indicator if the arrest occurred near a school (0 = No, 1 = Yes)
-Assigned Division: Division assigned to the case
-Assigned Bureau: Bureau assigned to the case
-Event Date/Time: Date and time of the arrest
+- `ID`: Reference Number
+- `Subject's race`
+- `Subject's gender`
+- `Subject's age`
+- `Ethnicity`
+- `District of occurrence`
+- `Adjacent to School`
+- `Assigned Division`
+- `Assigned Bureau`
+- `Event Date/Time`
 
-Visualizations
-Arrests Per Month:
-Analyzes the trend of arrests over time on a monthly basis.
+## Visualizations
 
-Number of Arrests Adjacent to Schools:
-Shows the number of arrests occurring near schools.
+The project features several visualizations created using Python in Jupyter Notebook:
 
-Race and Ethnicity Distribution in Arrests:
-Provides insights into the racial and ethnic distribution of arrests.
+1. **Arrests per Month**
+   - A time series plot showing the number of arrests each month.
 
-Geo Heat Map with Number of Arrests per District:
-Visualizes the number of arrests per district on a geographic heat map.
+2. **Number of Arrests Adjacent to Schools**
+   - A bar chart illustrating the number of arrests occurring near schools.
+
+3. **Race and Ethnicity Distribution in Arrests**
+   - A pie chart depicting the distribution of arrests by race and ethnicity.
+
+4. **Geo Heat Map of Arrests by District**
+   - A geographic heat map displaying the number of arrests per district.
